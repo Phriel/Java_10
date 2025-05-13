@@ -7,7 +7,8 @@
 ## 2. 디렉토리 구조
 
 프로젝트의 전체적인 디렉토리 구조는 다음과 같습니다.
-'''
+
+```
 hospital-reservation/           # 프로젝트 최상위 폴더   
 ├── data/                        # CSV 데이터 파일 저장 위치   
 │   ├── patients.csv             # 환자 정보   
@@ -30,7 +31,8 @@ hospital-reservation/           # 프로젝트 최상위 폴더
 │       ├── exception/           # 사용자 정의 예외 클래스     
 │       └── Main.java            # 애플리케이션 시작점     
 └── README_project.md                    # 프로젝트 설명 파일     
-'''
+```
+
 ### 2.1. `data/` 폴더
 CSV(Comma-Separated Values) 파일 형태로 애플리케이션의 데이터를 저장합니다.
    - `patients.csv`: 환자 정보 (ID, 사용자명, 비밀번호, 이름, 주민번호, 전화번호)
