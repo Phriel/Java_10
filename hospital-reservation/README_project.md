@@ -8,28 +8,28 @@
 
 프로젝트의 전체적인 디렉토리 구조는 다음과 같습니다.
 '''
-hospital-reservation/           # 프로젝트 최상위 폴더
-├── data/                        # CSV 데이터 파일 저장 위치
-│   ├── patients.csv             # 환자 정보
-│   ├── doctors.csv              # 의사 정보
-│   ├── reservations.csv         # 예약 정보
-│   └── admins.csv               # 관리자 정보
-├── src/                         # 자바 소스 코드 루트 폴더
-│   └── hospital/reservation/    # 최상위 자바 패키지
-│       ├── model/               # 데이터 모델 클래스
-│       ├── dao/                 # 데이터 접근 객체 (CSV 처리)
-│       ├── controller/          # 비즈니스 로직 및 요청 처리
-│       ├── gui/                 # AWT GUI 컴포넌트
-│       │   ├── common/          # GUI 공통 요소
-│       │   ├── auth/            # 인증 관련 GUI
-│       │   ├── patient/         # 환자용 GUI
-│       │   ├── doctor/          # 의사용 GUI
-│       │   └── admin/           # 관리자용 GUI
-│       ├── view/                # 콘솔 UI
-│       ├── util/                # 유틸리티 클래스
-│       ├── exception/           # 사용자 정의 예외 클래스
-│       └── Main.java            # 애플리케이션 시작점
-└── README_project.md                    # (선택) 프로젝트 설명 파일
+hospital-reservation/           # 프로젝트 최상위 폴더   
+├── data/                        # CSV 데이터 파일 저장 위치   
+│   ├── patients.csv             # 환자 정보   
+│   ├── doctors.csv              # 의사 정보   
+│   ├── reservations.csv         # 예약 정보   
+│   └── admins.csv               # 관리자 정보   
+├── src/                         # 자바 소스 코드 루트 폴더   
+│   └── hospital/reservation/    # 최상위 자바 패키지   
+│       ├── model/               # 데이터 모델 클래스   
+│       ├── dao/                 # 데이터 접근 객체 (CSV 처리)    
+│       ├── controller/          # 비즈니스 로직 및 요청 처리   
+│       ├── gui/                 # AWT GUI 컴포넌트    
+│       │   ├── common/          # GUI 공통 요소   
+│       │   ├── auth/            # 인증 관련 GUI   
+│       │   ├── patient/         # 환자용 GUI    
+│       │   ├── doctor/          # 의사용 GUI    
+│       │   └── admin/           # 관리자용 GUI    
+│       ├── view/                # 콘솔 UI     
+│       ├── util/                # 유틸리티 클래스     
+│       ├── exception/           # 사용자 정의 예외 클래스     
+│       └── Main.java            # 애플리케이션 시작점     
+└── README_project.md                    # 프로젝트 설명 파일     
 '''
 ### 2.1. `data/` 폴더
 CSV(Comma-Separated Values) 파일 형태로 애플리케이션의 데이터를 저장합니다.
