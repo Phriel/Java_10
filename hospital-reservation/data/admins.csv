@@ -1,2 +1,4 @@
 adminId,username,password,name
-A001,admin1,adminpass1,관리자1
+A001,admin1,pass1,관리자1
+A002,admin2,pass2,관리자2
+A003,admin3,pass3,관리자3
