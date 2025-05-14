@@ -40,7 +40,9 @@ public class Doctor extends User {
 
     @Override
     public String toCsvString() {
-        return String.join(",", getUserId(), getUsername(), getPassword(), getName(), departmentName, availability);
+        // availability 필드에 쉼표가 포함될 수 있으므로 큰따옴표로 감싸기
+        String escapedAvailability = "\"" + availability.replace("\"", "\"\"") + "\""; // 내부 큰따옴표는 ""로 이스케이프
+        return String.join(",", getUserId(), getUsername(), getPassword(), getName(), departmentName, escapedAvailability);
     }
 
     @Override
